@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Amanda Nista - Médica Veterinária</title>
+    <!-- Tailwind CSS para Estilização Rápida e Responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Configuração de Cores Personalizadas baseada no logo -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#008f5a', // Verde principal
+                        secondary: '#cfa873', // Bege/Dourado do logo
+                        background: '#fdfbf7', // Fundo bege claro
+                        text_dark: '#333333',
+                    },
+                    fontFamily: {
+                        sans: ['Nunito', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+        html { scroll-behavior: smooth; }
+        body { background-color: var(--background); }
+    </style>
+</head>
+<body class="bg-[#fdfbf7] text-gray-800 font-sans antialiased">
+
+    <header class="text-center py-12 px-6 bg-white shadow-sm border-b border-gray-100">
+        <img src="logo.png" alt="Dra. Amanda Nista" class="max-w-[250px] h-auto mx-auto mb-6">
+        <h1 class="text-3xl md:text-4xl font-bold text-primary mb-3">Dra. Amanda Nista</h1>
+        <p class="text-lg text-gray-500 italic max-w-2xl mx-auto mb-8">"A saúde do seu pet no conforto do seu lar,<br>com toda a dedicação e o carinho que ele merece."</p>
+        <a href="https://wa.me/5511994799914" class="inline-flex items-center justify-center bg-[#25D366] hover:bg-[#20bd5a] text-white px-8 py-3 rounded-full font-semibold transition-transform hover:scale-105 shadow-lg shadow-green-500/30">
+            <i class="fab fa-whatsapp text-2xl mr-2"></i> Agendar Consulta pelo WhatsApp
+        </a>
+    </header>
+
+    <div class="container mx-auto max-w-5xl px-6 py-16">
+        <section class="flex flex-col md:flex-row items-center gap-10 mb-20 bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
+            <div class="flex-1 text-center">
+                <img src="avatar.png" alt="Dra. Amanda Nista - Médica Veterinária" class="w-full max-w-sm rounded-2xl shadow-md mx-auto">
+            </div>
+            <div class="flex-[2]">
+                <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6">Cuidando do seu melhor amigo com amor de mãe e olhar de especialista <i class="fas fa-paw text-secondary"></i></h2>
+                <div class="space-y-4 text-gray-700 leading-relaxed text-lg">
+                    <p>Olá! Se você chegou até aqui, é porque o seu filho de quatro patas é uma parte muito especial da sua família. Eu entendo perfeitamente esse sentimento: também sou mãe — de um filho, de 4 cachorros lindos e de uma tartaruga! — e dedico a minha vida a cuidar de quem a gente mais ama.</p>
+                    <p>Minha jornada profissional sempre foi movida pelo dom de <strong class="text-primary">cuidar</strong>. Comecei minha trajetória atuando como enfermeira, fiz pós-graduação em gestão de saúde e me tornei proprietária de um petshop. Cada um desses passos me ensinou muito sobre empatia e bem-estar, mas foi ao me formar como <strong class="text-primary">Médica Veterinária</strong> que encontrei a minha verdadeira paixão.</p>
+                    <p>Hoje, uno toda a minha experiência na área da saúde humana e animal para oferecer um atendimento ético, acolhedor e cheio de afeto para o seu companheiro.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center mb-20">
+            <h2 class="text-3xl font-bold text-primary mb-4">Como Posso Ajudar o Seu Pet?</h2>
+            <p class="text-gray-600 text-lg max-w-2xl mx-auto mb-10">Sabemos que ir ao consultório pode ser um momento de bastante estresse para alguns bichinhos. Por isso, eu levo o cuidado até você!</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border-b-4 border-primary">
+                    <div class="text-4xl text-secondary mb-4"><i class="fas fa-house-user"></i></div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Atendimento Domiciliar</h3>
+                    <p class="text-gray-600">Consultas no conforto da sua casa, focadas exclusivamente no bem-estar de <strong>cães e gatos</strong>. Menos medo para eles, mais tranquilidade para você.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border-b-4 border-primary">
+                    <div class="text-4xl text-secondary mb-4"><i class="fas fa-syringe"></i></div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Vacinação Preventiva</h3>
+                    <p class="text-gray-600">Colocamos as vacinas em dia com todo o cuidado, garantindo que o seu melhor amigo esteja sempre protegido contra doenças.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border-b-4 border-primary">
+                    <div class="text-4xl text-secondary mb-4"><i class="fas fa-heart"></i></div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Causa Animal</h3>
+                    <p class="text-gray-600">Tenho muito orgulho de atuar no apoio às campanhas de castração comunitária da Prefeitura de São Paulo, ajudando a promover a saúde pública com responsabilidade.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE CONTATO ATUALIZADA (Baseada no modelo fornecido) -->
+        <section id="contato">
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col lg:flex-row border border-gray-100">
+                
+                <!-- Info de Contato (Lado Esquerdo - Verde) -->
+                <div class="bg-primary text-white p-10 lg:w-2/5 flex flex-col justify-center relative overflow-hidden">
+                    <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-white opacity-10 rounded-full blur-2xl"></div>
+                    <h3 class="text-3xl font-bold mb-6 relative z-10">Vamos Conversar?</h3>
+                    <p class="mb-8 opacity-90 relative z-10 text-lg">Estou aqui para tirar suas dúvidas e garantir que o seu peludo tenha a melhor qualidade de vida possível.</p>
+                    
+                    <div class="space-y-6 relative z-10 mb-8">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-white/20 p-3 rounded-xl"><i class="fab fa-whatsapp text-2xl"></i></div>
+                            <div>
+                                <p class="text-sm opacity-80">WhatsApp / Telefone</p>
+                                <a href="https://wa.me/5511994799914" target="_blank" class="font-bold text-xl hover:underline">(11) 99479-9914</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="bg-white/20 p-3 rounded-xl"><i class="fas fa-envelope text-2xl"></i></div>
+                            <div>
+                                <p class="text-sm opacity-80">E-mail</p>
+                                <a href="mailto:dra.amandanista@gmail.com" class="font-bold text-lg hover:underline break-all">dra.amandanista@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="bg-white/20 p-3 rounded-xl"><i class="fas fa-map-marker-alt text-2xl px-1"></i></div>
+                            <div>
+                                <p class="text-sm opacity-80">Endereço</p>
+                                <p class="font-bold">Rua Min. Rodrigo Otávio, 75<br>Jabaquara - São Paulo/SP</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="bg-white/20 p-3 rounded-xl"><i class="fas fa-globe text-2xl"></i></div>
+                            <div>
+                                <p class="text-sm opacity-80">Site</p>
+                                <p class="font-bold italic opacity-80">Em construção</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-auto pt-6 border-t border-white/20 relative z-10">
+                        <p class="text-sm">
+                            <strong>Dra. Amanda Nista</strong><br>
+                            CRMV-SP 77964
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Formulário de Contato (Lado Direito) -->
+                <div class="p-10 lg:w-3/5 flex flex-col justify-center bg-white">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Envie uma mensagem</h3>
+                    <p class="text-gray-600 mb-6">Descreva como posso ajudar o seu pet abaixo. Retornarei o contato o mais breve possível.</p>
+                    
+                    <!-- FormSubmit (Serviço Gratuito de envio de email via formulário HTML) -->
+                    <form action="https://formsubmit.co/dra.amandanista@gmail.com" method="POST" class="space-y-5">
+                        
+                        <!-- Configurações ocultas do FormSubmit -->
+                        <input type="hidden" name="_subject" value="Novo Contato pelo Site - Dra Amanda">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false"> 
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div>
+                                <label for="nome" class="block text-sm font-semibold text-gray-700 mb-1">Seu Nome</label>
+                                <input type="text" id="nome" name="Nome" required placeholder="Como podemos te chamar?" 
+                                    class="w-full px-4 py-3 bg-[#fdfbf7] border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                            </div>
+                            <div>
+                                <label for="telefone" class="block text-sm font-semibold text-gray-700 mb-1">Telefone / WhatsApp</label>
+                                <input type="tel" id="telefone" name="Telefone" required placeholder="(11) 90000-0000" 
+                                    class="w-full px-4 py-3 bg-[#fdfbf7] border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-semibold text-gray-700 mb-1">Seu E-mail (Opcional)</label>
+                            <input type="email" id="email" name="Email" placeholder="exemplo@email.com" 
+                                class="w-full px-4 py-3 bg-[#fdfbf7] border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary outline-none transition">
+                        </div>
+
+                        <div>
+                            <label for="mensagem" class="block text-sm font-semibold text-gray-700 mb-1">Como posso ajudar?</label>
+                            <textarea id="mensagem" name="Mensagem" rows="4" required placeholder="Conte um pouco sobre o seu pet (idade, raça) e o motivo do contato..." 
+                                class="w-full px-4 py-3 bg-[#fdfbf7] border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary outline-none transition resize-none"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-primary hover:bg-[#007046] text-white font-bold py-4 rounded-xl transition duration-300 shadow-lg shadow-green-500/20 flex justify-center items-center gap-2 text-lg">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+
+                    <!-- Opção de WhatsApp logo abaixo -->
+                    <div class="mt-8 flex items-center justify-between opacity-50">
+                        <hr class="w-1/3 border-gray-300">
+                        <span class="text-sm font-medium text-gray-500 uppercase">OU</span>
+                        <hr class="w-1/3 border-gray-300">
+                    </div>
+
+                    <a href="https://wa.me/5511994799914" target="_blank" class="mt-6 border-2 border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white px-6 py-4 rounded-xl font-bold transition flex items-center justify-center gap-2 w-full text-center text-lg">
+                        <i class="fab fa-whatsapp text-2xl"></i> Prefiro chamar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-white py-8 border-t border-gray-200 mt-10">
+        <div class="container mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Dra. Amanda Nista - Médica Veterinária. Todos os direitos reservados.</p>
+            <p class="mt-1">CRMV-SP 77964</p>
+        </div>
+    </footer>
+
+</body>
+</html>
